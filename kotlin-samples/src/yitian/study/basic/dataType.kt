@@ -24,6 +24,8 @@ fun bitOperators() {
     val a = 1 and 2
     //或
     val b = 1 or 2
+    //非
+    val n = 1.inv()
     //异或
     val d = 2 xor 3
 }
