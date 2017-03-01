@@ -42,6 +42,14 @@ fun whenStmt() {
         else -> false
     }
     println("结果是否包含空格:$hasSpace")
+    //when语句还可以作为if语句使用，这时候不需要给定变量
+    val m = 3
+    when {
+        m == 1 -> println("m是1")
+        m - 2 == 0 -> println("m是2")
+        else -> println("m既不是1也不是2")
+    }
+
 }
 
 fun forStmt() {
