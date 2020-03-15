@@ -4,7 +4,7 @@
 
 ## jetbrains-quest
 
-Jetbrains谜题的解密方法。
+Jetbrains谜题的解密方法，包含了全部3个谜题的解密函数。
 
 ## 其他项目
 
